@@ -1,9 +1,9 @@
 <script>
 import { Book } from '@/books/model/book.entity.js'
-import { ApiFakeService } from '@/books/service/apiFake-service.js'
+import { ApiFakeService } from '@/books/service/apiFake.service.js'
 
 export default {
-  name: 'TheBookCard',
+  name: 'the-book-card',
   data(){
     return {
       book: Book,

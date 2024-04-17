@@ -17,7 +17,7 @@
 
 <script>
 export default {
-  name: 'TheToolbarComponent',
+  name: 'the-toolbar',
   data() {
     return {
       items: [

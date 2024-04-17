@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: 'TheFooterComponent',
+  name: 'the-footer',
 }
 </script>
 

@@ -1,21 +1,31 @@
 <script>
 
 import { defineComponent } from 'vue'
-import TheToolbarComponent from '@/public/components/the-toolbar.component.vue'
-import TheFooterComponent from '@/public/components/the-footer.component.vue'
+import TheToolbar from '@/public/components/the-toolbar.component.vue'
 import TheBookCard from '@/books/components/the-book-card.component.vue'
+import TheFooter from '@/public/components/the-footer.component.vue'
+
+
 
 export default defineComponent({
-  components: { TheBookCard, TheFooterComponent, TheToolbarComponent }
+  components: { TheFooter, TheBookCard, TheToolbar }
 })
 </script>
 
 <template>
-   <TheToolbarComponent/>
-  <TheBookCard/>
-  <TheFooterComponent/>
+<div>
+  <the-toolbar/>
+  <the-book-card/>
+  <the-footer/>
+</div>
 </template>
 
 <style scoped>
+
+div{
+  display: flex;
+  flex-direction: column;
+  gap:2rem;
+}
 
 </style>
